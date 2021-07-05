@@ -3,7 +3,7 @@ body{
     margin: 0%;
 }
 h1{
-    font: 50px;
+    font: 80px;
 }
 .pixel{
     color:orange
@@ -12,8 +12,9 @@ h1{
     text-decoration: underline;
 }
 
-section{
+.fexlible{
     display: flex;
+    margin-bottom: 100px;
     
 }
 .half-width img{
@@ -39,4 +40,30 @@ section{
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px greenyellow;
+}
+.experiment-area{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full{
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice:1 ;
+    border-left: 7px solid;
+}
+#low{
+    border-image: linear-gradient(salmon, orange);
+    border-image-slice:1 ;
+    border-left: 7px solid;
+}
+footer p{
+    text-align: center;
 }
